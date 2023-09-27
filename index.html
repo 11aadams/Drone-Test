@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body <body bgcolor="#242b38">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://lh3.googleusercontent.com/fife/AK0iWDyqJPxFplBjk3cqw3PNko2xNfKPH9YR3vDnx4rPZnATrqrCR3PrZGf288Kznwp2c3MLO2n9iK-HOoPPwOVvBkdLqyc0JY6aKjRbVOQINmZ5wK1EqFcmSesHA8cdPHHjhUNnVQbPz1VIGV-ygdcV0chNavJat5h8AdVFeh0_iUY1KRUyFmIuAAjRZ7MphylExyA7-QUyqbt10mKTzynzs7fufRQ7yG1hXIpp04oxW74A2NvrkK7PoxNnnv4nQGslhOSIxyjkaFjvawKHxAtD9maWKU9HQawIvWhqjoAmMgmU6zkPNFGvTCZNv_GIWGE796uFONbB-zEyP1REiKtVDeBsrOwVIXTcQ_N_dYENVOrnGy9rbZyQfOVCMLyy4mCk2Opaa3Lj3ZK0wcKr998iJp-PEZ3mLcM6VqVW9JQGhCZF90herNbpUOatawJdRfQEfTHZlEaEkbEczY4XGOSKTuFe11LWoJJsaBAVrrh9SSZVxAC42xVNzgisrps4zkYGm32dG5gA37Ieo1OjPAcjyalFHT98jtVEpoWA74XbftIOiI2peLZmU1hTW9GJk4Y6ZEk_MMGwNjEe49q8cRwAnsK1q6tqbYK-r_teHmKfEiiwRpe5-A_79mRlzt-Wv2X2xBLlQaykFJqjCZXCXhJKrOuNgsOfC5Bj9BjgYVA7Mv4_IFfRnzt6bDHCiERNUo34rv1QnyaHXpDmHMMnhkUr5Mavq2Hbw2cHes-_E2V_cHh31ng0fWDQVGYyFgpUn3O71iNfBJ05asBF2-j-142NCOI5ZRRrUTMl4S1zbIR-7Y1_EKO8B-1wCTqwMsLjOn4FizTr4FEKjGgba-f9lQIbptTL8fJ3kAqiiYmnJWU5F-e-oRjJpZ-2q05KJQZmcBelLGWAjOyiva163bxpBHfdaHtfX7mEHPQ0gp4RILRz-jb5mXiyypw1OEfJbs7aFYHql4WaJ83FN6a-tSPizbT7DBPjHnWAFmvig19aarkH1tMimvde7RpnyIsR3k-d4HEjSqi0K7jktziRN9Gk1iQ9OkxnNDPado261Zve8r2xu1oBaFiOUlP-nPRdpyzhb0qQSQ1epad3ke_iD7Q2U7POb_r4XujPd5GztvZp_18uPat-_qY-JO5xOoZomAo5Guy78H2t_Ds2KrAHgeZfGr5YVcIz0-QDTheIZ4FAn-_BrDWe9GK71I4FBPYCFJYY1wuhPCWpCoIoKqbZt6t68OoKJgRgXzwPN-nDnDkEZRoIFW9i2RrM5dXb3RP_YwOrTEGAJkz5IicPZlg-yo5pg4U9vSV7m6HxomPOcK7YdaMWi13savmgff-O42t9LELwBXhCduHVB48LA0IzkwRozWD9F52xwcWYa9KhZzIAlm6gopfeRvhdSn3prdoNdo6tAE73USJwsb7XOryMOX0uA4LJgIJpU6d5JnUpDYZ0B0rR5kkKR7t9u4d5klmGWF1JAU_N_IuWqxoXgVFhkVxzIVgRROhFYW3hhfxs0TiHg-6sakXk36Z_WSdIYPV70u7NC8oHH-g6yJmlSP2iZUAczfy3JmfxXjSGpMwkT0PmvLb18Qj1T22LFIX7yF3TK3Lp1hL7uj-fWMKO7hhdOQ1ofbXxnPUs1vKYMRLqI9vamd79bRNbfX1Qs2CF0RcZdifCFtG5b731HdLeGxCN3ucwZavERKHfMt2KxvmgmA8MM8dzqpWTiicX_0f3mEm-aZfj3hviRBR4XLP_YCW-Y41Nkohfy7X77AazHQBNLPKwZjeDanl-pvXsAXwfSmiimuP2kj7EkhwLzzMKWQwP8QXs1jlOxKIEujES6zhYOJ5qJRHzIe4kvp0vhrK84Qc8Wf7leBNmzAxAihI4xutuD9bWc34F7UcTrXIRLNChb67-vnGhxdr09WiNpvjSsg=s948-w769-h948-s-no?authuser=0" style="height:20%" class="w3-opacity-max">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center" id="home">
+    <h1 class="w3-jumbo w3-text-light-grey">Alan Adams</h1>
+    <p class="w3-text-light-grey">Aerial Photography</p>
+	<!-- Single main photo
+    <img src="https://picsum.photos/id/669/2000/3000" alt="boy" class="w3-image" width="496" height="554">
+	-->
+	<!-- Slideshow --></div>
+	<div id="stage">
+  <a ="1.jpg"><img src="https://picsum.photos/id/162/2000" alt="boy" class="w3-image" width="600" height="554"></a>
+  <a ="2.jpg"><img src="https://picsum.photos/id/188/2000" alt="boy" class="w3-image" width="600" height="554"></a>
+  <a ="3.jpg"><img src="https://picsum.photos/id/640/2000" alt="boy" class="w3-image" width="600" height="554"></a>
+  <a ="4.jpg"><img src="https://picsum.photos/id/374/2000" alt="boy" class="w3-image" width="600" height="554"></a>
+  <a ="5.jpg"><img src="https://picsum.photos/id/658/2000" alt="boy" class="w3-image" width="600" height="554"></a>
+  <a ="6.jpg"><img src="https://picsum.photos/id/663/2000" alt="boy" class="w3-image" width="600" height="554"></a>
+  <a ="7.jpg"><img src="https://picsum.photos/id/693/2000" alt="boy" class="w3-image" width="600" height="554"></a>
+  <a ="8.jpg"><img src="https://picsum.photos/id/700/2000" alt="boy" class="w3-image" width="600" height="554"></a>
+</div>
+	<!-- End of slideshow -->
+	
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Name Is Alan</h2>
+    <hr style="width:250px" class="w3-opacity">
+    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	  Photogrammetry - Commerical - Surveying - Event - Inspection - Art Projects - Architectural
+    </p><br>
+	<!--
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+	-->
+	
+	    <h3 class="w3-padding-16 w3-text-light-grey">My Work</h3>
+    <p class="w3-wide">Businesses</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"><center>95%</center></div>
+    </div>
+    <p class="w3-wide">Real Estate</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"><center>85%</center></div>
+    </div>
+    <p class="w3-wide">Surveying</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"><center>80%</center></div>
+    </div><br>
+	
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">120+</span><br>
+        Flights
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">16+</span><br>
+        Hours Flown
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Projects Compleated
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Other cool things
+      </div>
+    </div>
+<br>
+<!--  Include stock photo/videos
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+--> 
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Personal</li>
+          <li class="w3-padding-16">Art projects</li>
+          <li class="w3-padding-16">Indie Film</li>
+          <li class="w3-padding-16"><s>&nbsp; Private Event &nbsp;</s></li>
+          <li class="w3-padding-16">Blah</li>
+          <li class="w3-padding-16">Blah</li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Request a Quote</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Business</li>
+          <li class="w3-padding-16">Store Fronts</li>
+          <li class="w3-padding-16">Real Esate</li>
+          <li class="w3-padding-16">Inspections</li>
+          <li class="w3-padding-16">Surveying</li>
+          <li class="w3-padding-16">Photogrammetry</li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Request a Quote</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+<!--	
+	
+    <!-- Testimonials 
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>John Doe saved us from a web disaster.</p><br>
+    
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p>
+  <!-- End About Section 
+  </div>
+  
+  -->
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+	    <div class="w3-display-container w3-text-white">
+			<img src="https://lh3.googleusercontent.com/pw/ADCreHcS7DQovU2fanC2QvonXVlgtyeHJkrYuzNA1vfc_ZUp67mJmCzsv5N3DPBfSiyIIi1rkYg0U2Q2IDkzxxV2XK_RFLuDsPCqqGSMhcvfx69fY9k8uKnBIf3twMCGuiKP3EJGhcu0s3TszP4-Evhv0pm48BJX0fYIZl6j6ThNRybmtn07z61FcaYR9kEfmQU9GiNOCC6vqSgbABnddaKzVCJ4ybPpLbjimVg9dAj1AL6amnPO3aVzKz6HiCAJYHs_AoLxhhMuUAZASrP43QhyDq35bKHwylqHFh6n-U8fzp6-ba5jcPpPI1zKfxEgxXsFLuj2MgH9AywvFsn7k9EtKYe54r8VKa_CEXNHmRluj_Ln_W4k51xBFRSXxcwpyoh9qra-wcp1b017UE3tkqX03sQFwvVXaqClTs087wBl5pRpkvW0W4xdXlRn2Amhm3BAWBbIu1RbFB3c6m3ed49YFGkfbO8imFjkYJNm1HJMNw2HXsIJVH4cHh5xrf-F9ugIIVpJbSAsTp2Al6dqAWZ0BMDsT8pHs6WJ-uv2eZVv_WBaSr6NvMWIcFkZX6dP4OCaUeyKddl1f0i0IAs_AuBEF_XIg0qePoxC1vnDoYFVqJV4Um7j3H7OmlPzODE0PP2h2SK7Cy3u7yCQ2RoPy0d4EajEt5gYwxIPSyl5yZA08OCXLccXelVuLzept_crA90dAhiINoyPFPZQ7cFFjcR6VlAFo2MDF8lmPpUa97RKGESWM70GIukMMagQ0iX4E-w3_LpQHtUjVm3PXuM60CMu4vrcgzzWPGiCbXdCwah51V8z4ytJwRv9mk3Y_tngNmgeui03-Wm_8tEDnEj5e5KqBJTqaUOIklH9FZoQeK5BQp_1-7mNLhEYINV7tHNY8hAHr72-IdqFeokjtX5HCZrT-Fw_0J8581ROFpv3wUxnoNT8ljIitakTgrQHLXJbnkXW6vgQxTR69ZjSLq0CjVXOITCvflneFJA_GL_Ih2PE8PvuK126lww0OBmiNnhEEuFjjLdBrgLiewJY9YY1Njb1XI4ioeFqovuUoHqcFwk00ys0O2Ov-NHw2fJgBKGBlOJARHXGjfOGDheeylFXrFsH03jU8SE8-kNxeYatsgS54DkW-RVIVA=w1264-h948-s-no?authuser=0" style="width:100%">
+				<div class="w3-display-bottomleft w3-container"><p><i class="fa fa-eye" aria-hidden="true"></i> 5,525 Google Views</p></div>
+				 </div>
+				 
+	    <div class="w3-display-container w3-text-white">
+			<img src="https://picsum.photos/id/773/2000/2000" style="width:100%">
+				<div class="w3-display-bottomleft w3-container"><p>23,443 Google Views</p></div>
+				 </div>
+				 
+	    <div class="w3-display-container w3-text-white">
+			<img src="https://picsum.photos/id/851/2000/2000" style="width:100%">
+				<div class="w3-display-bottomleft w3-container"><p>Views</p></div>
+				 </div>
+
+	    <div class="w3-display-container w3-text-white">
+			<img src="https://picsum.photos/id/448/2000/2000" style="width:100%">
+				<div class="w3-display-bottomleft w3-container"><p>Views</p></div>
+				 </div>
+      </div>
+
+      <div class="w3-half">
+	    <div class="w3-display-container w3-text-white">
+			<img src="https://lh3.googleusercontent.com/pw/ADCreHcAVNYQeiuwj97y7JwCA7BvOsglqiJyqjH0L575wcz4gUiq16HITRtkG7mhhcwsQ5E3JXHeOR9qGXW9H1ibrxe1ofgvxjjHRinphSc13ujKO132QOMmNvB6ajwaVl3i5Tp5OYFCDV0nRGSmEYwsBz34ZN-Z3XNi1SKyzrDCvnB4NZRa6dQCvrDz9WCSzkItLcFTitqvnBAGqK7G9OLyCuROiW2TYhBCgeaMdmz22TTMCnW5quiF3gN1-qdtMu1J1iqdOtXO0rhGkzBABMGXIdqtfvBNa83SVUy0xRXns53PVv2PhtV6Ed0Ic7hQh9yMufAlFaWQFyS9Ho1hapVakmBuRE2CLEQ-PgWt25IWsuwemPKZaU4xqA8LWdHA8kvtpXlfbukw_58T-ZqpSRrm8QuU8_7DHGgzDL9n-xewkA4hRqPu88f2LOYZRCxO27IxY1jRYfSAeSh_KazRPrbAMm-U2loi_l9fbRQxC3K3kifWoFNHMKWZZYH4FgLe3hzUPuErbAT3qhVtpO-Qe__93UBXqVo1NaBIA_K0JH1ZGGXdqb3AWt2myetbuB8NQTQ1__6mR1XdGixHWrrxcCqskyneSNerYaEHn3UjrOvTlGZTf5okeRzgdpfbp0DihvhVwCf9zs9FLVn5rmQxHTDVRz4NLX53uJxw4nJfQj0mn6_OcLTwpFylNQrC4r8X5-b12nLQtnwwJ7zq_EWYKI4xctJ7ItrVLJBXatE57wRUBYphrGf-bpLJsbifLCrpzKLMP9aDpgBRQ63q1DpgWe6uJgbyn3vrtxnWa7uv8BLss2rG7YwZ-5Uighg1oG9oTOe6uwDwSJB8AG8kDc7n4d0uqWDRrTY1ZwAU0KnoBZfdVIdBH2s3TFcW1riBwaxnlhZcBVPPwSj3JRFUWo2hQH3XTR_Lkta8XjuwZHtLrn2RoCiay-ylXSCX99n1t4usZMP5s2NmJoJr2msBqyrG6bWWqa9K4_z97uDZuGkdSiQ6Hca5FYeSuV8Sgv5w2pCyNjhzmHTUYg_Ep-runjcKMaCWNWahCJwan9bBK3pW6AUxMA_un8SDXMafATNIIKZIZWvvT2qPDWm9vOrdyHqGDkfnaTGBOMrZueHz6lB_esiH38qvq-CcOw=w1264-h948-s-no?authuser=0" style="width:100%">
+				<div class="w3-display-bottomleft w3-container"><p>Views</p></div>
+				 </div>
+				 
+	    <div class="w3-display-container w3-text-white">
+			<img src="https://picsum.photos/id/924/2000/2000" style="width:100%">
+				<div class="w3-display-bottomleft w3-container"><p>Views</p></div>
+				 </div>
+				 
+	    <div class="w3-display-container w3-text-white">
+			<img src="https://lh3.googleusercontent.com/pw/ADCreHdFZ3xFzpAQsDrMQFFhsJENY_kmr5eLeNjj315ZmN6hBPHv-7tzqIO4-h_0J0qVA3Kv3zG95wp10jIrHGY9ozXu-xfvpPyycf97pcbkcj3V3tIL4VM3t5n9UKcE2QWR5e2TByImWxowRxe9Df6LovJwJErGrinnCeU2pVwourLByABnCV-jV2VQR7QjbJEYS6r59aYW99t0SHD_rAk3J-krbJVBlsiwXv4QNdme7l4mcorYdgj9GMW5FyxquJhQeDZUMPiEMN6ADhH0aJQEeh2t98vtYh84XoxZOTT2nVOU4-yjxDQ419h6eTMbvOY0NhSIR1UZ2frwaQtxLYWbSL2tP2PfiGXUuavvO0yIXSZyPHJwx9TYO_44okr9xMwzv-YRmbd0psxp8d5JNsgQPidm_9MKnyPJFAzkpiWSBzlwHlFRii9v4cE4cK5rZWmPSHMH4OtnruKlT2L_Ohfz32ddAG9yTXDF6KR_iC-IGeGPxihS95UKciUcDm6gISZAar13BjZMT_yf9FJjdnH6aVJ6yphRPyPi0p5ocFAZVTUY_SS4o2W5CnNskqrdiLg7PvE5mMePkX1UROp8pLiQAjODwV7dYj-JbKZDK1EGMfkTmMsYRydtpTw51VdqqJaYYGDlgdMjYUGjODRYhlAI9heN4uE-I1_9KnoyW26LPkh-8D_VfChPctQK1JLr5_Vlpdh86Wdm8tTEwglhZbTIw6d53yX6nP9Xu0C8DPfHZw-BSKJd-L2WxfdeLSMhY52i3JcwfFhHOekUTfDDkubhe1o_3Ga2v-KOZV3Bc-CRbh51bfViGg8f0sfKg_gXgnYvV1pa6e-E1T5xx66YcKn2nLo-88W-q6ttA-Wygq_bkJWuwA2_ypRXdqRHJEb8KPTAMui706_yYKkqMktrWEaz7QjSCSiedFimpeuLI64HzF5JByBH38LHRJE1mI3BKiqdGoWapk43Yzn9SWYPX6zYsjFt9eN0qXiPr9nBt7ApzLhtJ5_YPfNEyeocvfwday0lSJHh8WodohIWFqmTrBQwRUguJS302XmE20mTztGEhavVh0cmh74tt3ugzhvQN0DeC0keli85Lc7LXMpjO2B_cfgrxQaV1eCLLNik2WNXWbRKdpxqRg=w1264-h948-s-no?authuser=0" style="width:100%">
+				<div class="w3-display-bottomleft w3-container"><p>Views</p></div>
+				 </div>
+
+	    <div class="w3-display-container w3-text-white">
+			<img src="https://lh3.googleusercontent.com/pw/ADCreHfWhaaueRxpI_7SwAnojkNutEgtGXWcRO8zVKmFMfcUl5_QkP5ThK2wtoz7CD4mZX-xDHchlkAyfXd-Z0czTvV5mOXmamCeIAfkxf1ur2-EiuRZdxedp4IQvxzXLpYe679uXe3GE1fUOsgQrNBe8psPvHGLowee2TEL_TZuGQ28cDh3JINNEFkJv19tL5ub022qHPHiLPe5jgvQCuK1m9FwSqEvCxq_GkSDB99lQczr6iuMWPsyVOXz8U4gRx9eGYU830QB0eWFNavkZehEuXYZGcye8pUF8gYaHVMgvOlJEVMXXQB37PMUWP-j5en-OJqryVMh5PAcakgGQBDJAzsaRP0h2dPoqoEIkqjIhRUeJlhTTcPWGyZzWW7LhDhujptb51JusAjdhtTZVugJ_omqJc3D8tADpoXAx56ih9hK1TB-9W4nJnfesjm41Sy87P0IxEw-khryhGJwfftBqmElqEPk0qtBdHY0VddOyreDJcqA3Prxnrwg0YLEbClWyNNnekXwOySJZgpi47Wwxxv0ge6yd97Hl8fvYNLUfpFYPOT8f9OPGhwpRNIxeGF3cVGIAjV9hpc5e51T0uV7pE6JomCykiJKfatJHcHXLWFCWZoWs_1VMrpH3loyNYF_lA_2uWKHuB5yz_7bhsdJx5RmjxTlDGQf5d2-2A-xX2IEMiZFY8AQiPo1tYdSdUo1zjVmSB9cIsBW5CazFjF0VVHg8FOgWHVnmeuwhBIHhjn69dmhqGMNY9QoWLeWRBjtaVbuG8FZYIWhrmu4OdH0duuJIrnhBJB9wVUaqBc2LoH4KhxJre_js2Wq105n9nvyv2wxwuPHbkzsMwu3y5LVXCvhA1mRO20WgAiXO55wduS2oNhj_sZBfs3XQ7y4tF0V56wSksfgEqusDGZ22RGCyUKUkXGBCOpEAHCe7dThTpehXpII6KSoY2OGnYaTJ2NO1N9K90GfDQ_okXIv6HOOY4RKZr3fXpxFF25MkQ6XfPliXyFfOXULQu8YTWVyJSqRVxAZzPaF1DFdXThbdsxn4DKAwG3kQeME19vVv7mq3P0L1367re8BpHFaaNwY0gDsteUIUa_GNcdwh6GtJsi6wLNHlEIUcbuXTPwBwvVECJCyMxqa7g=w1264-h948-s-no?authuser=0" style="width:100%">
+				<div class="w3-display-bottomleft w3-container"><p>Views</p></div>
+				 </div>
+
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Philadelphia, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div><br>
+    <p>If you have any questions send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    Kit
+	Patreon
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+<!-- Main photo slide show -->  <!-- width: 1000px;  -->
+
+<style>
+
+  #stage {
+    margin: 0em auto;
+    width: 496px;
+    height: 554px;
+  }
+
+  #stage a {
+    position: absolute;
+  }
+
+
+  #stage a:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 6s;
+    animation-duration: 3s;
+    z-index: 20;
+  }
+  #stage a:nth-of-type(2) {
+    z-index: 10;
+  }
+  #stage a:nth-of-type(n+3) {
+    display: none;
+  }
+
+  @keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+
+</style>
+
+
+<script>
+
+  window.addEventListener("DOMContentLoaded", function(e) {
+
+    // Original JavaScript code by Chirp Internet: www.chirpinternet.eu
+    // Please acknowledge use of this code by including this header.
+
+    var stage = document.getElementById("stage");
+    var fadeComplete = function(e) { stage.appendChild(arr[0]); };
+    var arr = stage.getElementsByTagName("a");
+    for(var i=0; i < arr.length; i++) {
+      arr[i].addEventListener("animationend", fadeComplete, false);
+    }
+
+  }, false);
+
+</script>
+
+<!-- End of slideshow -->
+
+
+
+
+
+</body>
+</html>
